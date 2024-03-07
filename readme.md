@@ -1,15 +1,1 @@
-In tsconfig.app.json change your include array from
-```
-"include": [
-    "src/**/*.d.ts"
-  ]
-To
-```
-```
-"include": [
-    "src/**/*.d.ts",
-    "src/**/**/*.d.ts"
-  ]
-```
-避免federation.config.js無法編譯component的錯誤
-
+federation.config.js 所有的expose檔案都必須有過import 如果沒有Import 無法將其expose出去
