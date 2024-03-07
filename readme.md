@@ -8,7 +8,7 @@ To
 ```
 "include": [
     "src/**/*.d.ts",
-    "src/**/*.ts"
+    "src/**/**/*.d.ts"
   ]
 ```
 避免federation.config.js無法編譯component的錯誤
